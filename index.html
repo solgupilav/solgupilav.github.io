@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Selim Olgu Pilav</title>
+<meta name="description" content="Research papers by Selim Olgu Pilav on spacecraft guidance, control and machine learning.">
+<style>
+  :root {
+    --bg: #ffffff;
+    --text: #1d1d1f;
+    --muted: #5f6368;
+    --line: #e3e3e3;
+    --link: #1a5fb4;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #161618;
+      --text: #ececec;
+      --muted: #a0a0a5;
+      --line: #2e2e32;
+      --link: #8ab4f8;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.6 Georgia, "Times New Roman", serif;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 56px 20px 80px; }
+  h1 { font-size: 2rem; font-weight: normal; margin: 0 0 4px; }
+  .sub { color: var(--muted); margin: 0 0 8px; }
+  h2 {
+    font-size: 0.85rem; font-weight: normal; letter-spacing: 0.08em;
+    text-transform: uppercase; color: var(--muted);
+    border-bottom: 1px solid var(--line); padding-bottom: 6px; margin: 48px 0 0;
+  }
+  a { color: var(--link); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  article { padding: 24px 0; border-bottom: 1px solid var(--line); }
+  article h3 { font-size: 1.15rem; margin: 0 0 4px; line-height: 1.4; }
+  .venue { color: var(--muted); font-style: italic; margin: 0 0 10px; }
+  article p { margin: 0 0 10px; }
+  .links a { margin-right: 18px; font-family: -apple-system, "Segoe UI", sans-serif; font-size: 0.9rem; }
+  details { margin-top: 8px; }
+  summary { cursor: pointer; color: var(--muted); font-family: -apple-system, "Segoe UI", sans-serif; font-size: 0.9rem; }
+  pre {
+    background: transparent; border: 1px solid var(--line); padding: 12px;
+    overflow-x: auto; font-size: 0.8rem; line-height: 1.45;
+  }
+  footer { color: var(--muted); font-size: 0.85rem; margin-top: 40px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Selim Olgu Pilav</h1>
+  <p class="sub">Independent researcher, United Kingdom</p>
+  <p class="sub"><a href="mailto:sop24@cantab.ac.uk">sop24@cantab.ac.uk</a> &middot; <a href="https://github.com/solgupilav">GitHub</a></p>
+
+  <h2>Papers</h2>
+
+  <article>
+    <h3>Safe Multi-Agent Spacecraft Docking with Control Barrier Functions and Reinforcement Learning</h3>
+    <p class="venue">Selim Olgu Pilav. Accepted to the 2027 IEEE Aerospace Conference.</p>
+    <p>Nine CubeSat-sized chasers dock at once using multi-agent reinforcement learning and a
+    control barrier function safety filter, with 99.54% success and no collisions over 5000
+    episodes.</p>
+    <p class="links">
+      <a href="papers/pilav_2027_safe_multi_agent_docking.pdf">PDF</a>
+    </p>
+    <details>
+      <summary>BibTeX</summary>
+<pre>@inproceedings{pilav2027safe,
+  author    = {Pilav, Selim Olgu},
+  title     = {Safe Multi-Agent Spacecraft Docking with Control
+               Barrier Functions and Reinforcement Learning},
+  booktitle = {2027 IEEE Aerospace Conference},
+  year      = {2027},
+  note      = {To appear}
+}</pre>
+    </details>
+  </article>
+
+  <article>
+    <h3>One Neural Operator for Re-planning Low-Thrust Cislunar Transfers after Thrust Outages, at the Original or a Later Arrival</h3>
+    <p class="venue">Selim Olgu Pilav. Preprint, 2026.</p>
+    <p>A neural operator re-plans low-thrust cislunar transfers after thrust outages in
+    milliseconds and predicts whether a recovery exists.</p>
+    <p class="links">
+      <a href="papers/pilav_neural_operator_thrust_outages.pdf">PDF</a>
+    </p>
+  </article>
+
+</main>
+</body>
+</html>
